@@ -1,9 +1,9 @@
 public class Suma {
-   public double sumar(double a, double b){
+   public static double sumar(double a, double b){
       return a + b;
       }
 
-    public double restar(double a, double b){
+    public static double restar(double a, double b){
        return a - b;
     }
 }
