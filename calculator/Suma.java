@@ -6,4 +6,8 @@ public class Suma {
     public static double restar(double a, double b){
        return a - b;
     }
+
+    public static double multiplicar(double a, double b){
+       return a * b;
+    }
 }

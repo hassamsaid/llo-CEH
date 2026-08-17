@@ -32,7 +32,9 @@ public class Main {
                     result = Suma.restar(result, number);
                     break;
 
-                // *
+                case "*":
+                    result = Suma.multiplicar(result, number);
+                    break;
 
                 // /
 
