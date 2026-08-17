@@ -12,7 +12,7 @@ public class Main {
         double result = scanner.nextDouble();
 
         while (true) {
-            System.out.print("Escribe la operación a hacer (+, -) o escribe 'exit': ");
+            System.out.print("Escribe la operación a hacer (+, -, *, /) o escribe 'exit': ");
             operator = scanner.next();
 
             if (operator.equals("exit") || operator.equals("salir")) {
@@ -32,9 +32,14 @@ public class Main {
                     result = Suma.restar(result, number);
                     break;
 
-                // *
+                case "*":
+                    result = Multiplicacion.Hacer_Multiplicacion(result, number);
+                    break;
 
-                // /
+                case "/":
+                    result = Multiplicacion.Hacer_Division(result, number);
+                    break;
+
 
                 default:
                     System.out.println("Error. Operación inválida.");
