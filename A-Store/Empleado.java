@@ -10,8 +10,8 @@ public class Empleado {
     private final boolean oculto;
 
     //constructor
-    public Empleado(int id, String nombre, String tipo, String cargo, float salario, String horario) {
-        this.id = id;
+    public Empleado(String nombre, String tipo, String cargo, float salario, String horario) {
+        this.id = 0; //aqui va generador de Ids"
         this.nombre = nombre;
         this.tipo = tipo;
         this.salario = salario;
@@ -21,40 +21,40 @@ public class Empleado {
 
 }
 //getters y setters
-public int getId() {
+public int get_id() {
     return id;
 }
-public void setId(int id) {
+public void set_id(int id) {
     this.id = id;
 }
-public String getNombre() {
+public String get_nombre() {
     return nombre;
 }
-public void setNombre(String nombre) {
+public void set_nombre(String nombre) {
     this.nombre = nombre;
 }
-public String getTipo() {
+public String get_tipo() {
     return tipo;
 }
-public void setTipo(String tipo) {
+public void set_tipo(String tipo) {
     this.tipo = tipo;
 }
-public String getCargo() {
+public String get_cargo() {
     return cargo;
 }
-public void setCargo(String cargo) {
+public void set_cargo(String cargo) {
     this.cargo = cargo;
 }
-public float getSalario() {
+public float get_salario() {
     return salario;
 }
-public void setSalario(float salario) {
+public void set_salario(float salario) {
     this.salario = salario;
 }
-public String getHorario() {
+public String get_horario() {
     return horario;
 }
-public void setHorario(String horario) {
+public void set_horario(String horario) {
     this.horario = horario;
 }
 
